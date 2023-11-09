@@ -1,0 +1,51 @@
+open lfp.gdt
+
+# I change the variable SEX from (1=male ; 2=female) to (1=male;0= female) 
+SEX = (SEX == 1)
+
+list X = NCOMP SEX PARENT ANASC STACIV STUDIO \
+     ETA NASCREG NASCAREA IREG CLETA5 PERC PERL \
+	 NPERL NPERC AREA5 ACOM4C ACOM5
+
+corr X --plot=display
+
+#I remove the most correleted variables:ACOM5, CLETA5, IREG ,NASCAREA, NASCREG ,PARENT, ANASC
+#I transform STACIV into a dummy variables where 1=MARRIED, 2=SINGLE, 3=DIVORCED
+#i drop 4=WIDOW
+list X = NCOMP SEX MARRIED SINGLE DIVORCED STUDIO \
+     ETA PERC \
+     PERL NPERC NPERL AREA5 ACOM4C 
+
+#Full sample logit model with dummy (without NAs)
+logit LFP const X --p-value
+omit --auto
+  
+#Male sample logit model with dummy (without NAs)
+smpl SEX == 1 --restrict
+
+list X = NCOMP MARRIED SINGLE DIVORCED STUDIO \
+     ETA PERC \
+     PERL NPERC NPERL AREA5 ACOM4C 
+
+logit LFP const X --p-value 
+omit --auto
+
+smpl --full 
+
+#Female sample logit model with dummy (without NAs)
+smpl SEX == 0 --restrict
+
+logit LFP const X --p-value 
+omit --auto
+
+smpl --full
+
+# interactio model with dummy SEX
+list X = NCOMP MARRIED SINGLE DIVORCED STUDIO \
+     ETA PERC \
+  PERL NPERC NPERL AREA5 ACOM4C 
+
+list X_int= SEX^X
+  
+logit LFP const X X_int
+omit --auto
