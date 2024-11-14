@@ -24,4 +24,4 @@ La cartella è organizzata come segue:
 I risultati dell'analisi delle serie storiche utilizzando SVM sono riportati nel file `Report SVM.pdf`.
 
 ## Contatti
-Per qualsiasi domanda o feedback, contattami all'indirizzo email [S111367@studenti.univpm.it]
+Per qualsiasi domanda o feedback, contattami all'indirizzo email [S1113674@studenti.univpm.it]
