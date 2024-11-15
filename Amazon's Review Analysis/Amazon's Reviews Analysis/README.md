@@ -35,7 +35,7 @@ This repository contains a sentiment analysis of reviews of a smartwatch sold on
 ## Objective
 
 1. Understand how the smartphone is judged, what is general sentiment of the reviews and build a marketing campaign
-2. Simulate a marketing campaign with the aim of emphasising the positive aspects emphasised by users who have bought the product and improving on the negative aspects
+2. Simulate a marketing campaign with the aim of emphasising the positive aspects highlighted by users who have bought the product and improving on the negative aspects.
 
 ## Methodologies
 
@@ -48,8 +48,8 @@ ensuring accurate and systematic data collection.
 language patterns in reviews.
 
 ## Results
-
-- **Key Findings**: Most reviews give 4 or 5 stars, indicating high overall satisfaction
+1. Most reviews give 4 or 5 stars, indicating high overall satisfaction.
+2. Sentiment analysis reveals an overall positive tone, with recurring phrases like "Easy to use", "good price-quality ratio" and " long battery life"; while the fewer negative reviews foucs on " losing connection".
 
 
 ## Authors
