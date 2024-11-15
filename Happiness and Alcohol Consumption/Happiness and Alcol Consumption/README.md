@@ -69,7 +69,5 @@ This repository contains an in-depth analysis of the relationship between happin
 
 ---
 
-For any questions or feedback, feel free to contact us. Enjoy exploring the relationship between happiness and alcohol consumption!
-```
+For any questions or feedback, feel free to contact me S1113674@studenti.univpm.it . Enjoy exploring the relationship between happiness and alcohol consumption!
 
-Puoi copiare e incollare questo contenuto nel tuo file `README.md`. Fammi sapere se desideri aggiungere o modificare qualcosa! 😊
