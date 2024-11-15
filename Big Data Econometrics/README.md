@@ -45,10 +45,12 @@ The file LFP_Data.gdt contains a subset of individuals from the SHIW (Survey on 
 3. Use the provided LFP_GRETL_Script.inp to replicate the analysis.
 4. Refer to the project paper LFP_Logistic_Regression_Analysis.pdf  for detailed documentation.
 
-## Author
+## Authors
 
 
  **Alberto Sartini**
+ 
+ **Jacopo Bonanno**
 
 ---
 
