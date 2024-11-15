@@ -25,4 +25,5 @@ PCA showed that variables like curb weight, price, and city MPG correlated with 
 The analysis concludes that key determinants of car prices in the U.S. market include cabin size, vehicle dimensions, engine power, and fuel consumption. For Geely Auto to succeed in this market, it is recommended that they focus on larger, moderately fuel-efficient vehicles to align with local preferences and stay competitive.
 ## Authors
 **Alberto Sartini**
+
 **Leonardo Galassi**
