@@ -10,7 +10,7 @@ This repository contains a comprehensive analysis of car pricing factors, conduc
   **README.md**: This file, providing an overview of the project and its components.
 
 ## Objectives
-The primary goal of this analysis is to identify the factors that influence car prices in the U.S. market, which may differ significantly from those in the European market. This information will help Geely Auto adapt its product offerings and pricing strategies to meet local preferences and compete effectively with U.S. and European car manufacturers.
+The primary goal of this analysis is to identify the factors that influence car prices in the U.S. market, which may differ significantly from those in the chinese market. This information will help Geely Auto adapt its product offerings and pricing strategies to meet local preferences and compete effectively with U.S. and chinese car manufacturers.
 ## Analysis Overview
 1. **Linear Regression**:
 A linear regression model was developed using variables such as horsepower, car length, compression ratio, and engine size. The model reveals that horsepower and engine size are highly significant in determining car prices, with R-Squared and Adjusted R-Squared values around 0.8, indicating strong explanatory power. A low p-value from the F-test led us to reject the null hypothesis, supporting the relevance of the chosen variables.
