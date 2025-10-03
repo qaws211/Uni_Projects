@@ -34,7 +34,7 @@ This repository contains a sentiment analysis of reviews of a smartwatch sold on
 
 ## Objective
 
-1. Understand how the smartphone is judged, what is general sentiment of the reviews and build a marketing campaign
+1. Understand how the smartwatch is judged, what is general sentiment of the reviews and build a marketing campaign
 2. Simulate a marketing campaign with the aim of emphasising the positive aspects highlighted by users who have bought the product and improving on the negative aspects.
 
 ## Methodologies
