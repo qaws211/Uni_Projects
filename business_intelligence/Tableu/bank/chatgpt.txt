@@ -1,0 +1,42 @@
+Prima di creare visualizzazioni complesse, esplora i dati per capire meglio le distribuzioni e le relazioni tra le variabili.
+
+Grafici Suggeriti:
+Distribuzione dell'Età:
+
+Istogramma: Per visualizzare la distribuzione dell'età dei clienti.
+Box Plot: Per individuare eventuali outliers e capire meglio la dispersione.
+Distribuzione del Saldo Medio Annuale:
+
+Istogramma: Per vedere la distribuzione dei saldi medi.
+Relazione tra Durata e Iscrizione al Deposito a Termine:
+
+Scatter Plot: Usa la durata del contatto sull'asse X e la variabile di output "y" come colore o forma per vedere se c'è una correlazione visibile tra la durata del contatto e l'iscrizione.
+Effetto del Tipo di Contatto:
+
+Bar Chart: Per visualizzare il numero di clienti contattati per ciascun tipo di contatto (telefonico, cellulare, sconosciuto) e come si distribuiscono in termini di iscrizione al deposito a termine.
+Andamento Mensile delle Iscrizioni:
+
+Line Chart: Mostra il numero di iscrizioni per mese per identificare eventuali stagionalità.
+Analisi delle Campagne Precedenti:
+
+Bar Chart: Numero di contatti precedenti (previous) contro il risultato della campagna attuale per vedere se c'è una relazione tra il numero di contatti precedenti e il successo della campagna.
+Analisi del Risultato della Campagna Precedente:
+
+Stacked Bar Chart: Mostra la variabile poutcome e come si distribuiscono i risultati della campagna attuale rispetto agli esiti delle campagne precedenti (successo, fallimento, altro, sconosciuto).
+4. Creazione di Dashboard Interattivi
+Una volta creati i singoli grafici, puoi combinare queste visualizzazioni in una dashboard interattiva:
+
+Dashboard di Panoramica: Una combinazione di grafici principali come la distribuzione dell'età, tipo di lavoro, e l'esito del contatto.
+Dashboard Dettagliata: Grafici dettagliati come la durata del contatto contro l'iscrizione, suddivisi per mese o per tipo di contatto.
+5. Analisi Avanzata
+Per approfondimenti ulteriori, puoi utilizzare:
+
+Filtri: Per segmentare i dati in base a criteri specifici (es. solo clienti con un determinato tipo di lavoro o stato matrimoniale).
+Azioni: Per creare interazioni tra i grafici (es. cliccare su una barra in un grafico per filtrare i dati in un altro grafico).
+6. Interpretazione dei Risultati
+Infine, analizza i risultati per trovare insight utili:
+
+Quali sono i profili di clienti più propensi a iscriversi a un deposito a termine?
+Quali sono le caratteristiche dei contatti più efficaci (durata, mese, tipo di contatto)?
+Come influisce la storia delle campagne precedenti sul successo attuale?
+Con questi passi e suggerimenti, dovresti essere in grado di creare una serie di visualizzazioni significative che ti aiuteranno a comprendere meglio il comportamento dei clienti e l'efficacia delle campagne di marketing bancario. Buon lavoro con Tableau!
