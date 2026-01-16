@@ -1,6 +1,6 @@
 # Business Intelligence
 
-This folder contains three **Business Intelligence projects** developed within the course *Big Data Analytics Laboratory* of the Master’s Degree in **Data Science for Economics and Business** (Academic Year 2023/2024 – Università Politecnica delle Marche).
+This folder contains three Business Intelligence projects developed within the course *Big Data Analytics Laboratory* of the Master’s Degree in Data Science for Economics and Business (Academic Year 2023/2024 – Università Politecnica delle Marche).
 
 ---
 
