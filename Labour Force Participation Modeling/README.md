@@ -1,6 +1,6 @@
 # Labour Force Participation Analysis
-
-The file LFP_Data.gdt contains a subset of individuals from the SHIW (Survey on Household Income and Wealth) 2020 dataset. Further information on the variables can be found in the two  pdf files **Survey_Italian_Household_Income_and_Wealth_2020.pdf** and **LFP_Variables_Documentation.pdf** . .This repository contains an  analysis of the relationship between Labour Force Participation (LFP) and other socio-economic variables. The project explores this relationship by using StepWise Logistic Regressions.
+This repository contains an  analysis of the relationship between Labour Force Participation (LFP) and other socio-economic variables. The project explores this relationship by using StepWise Logistic Regressions.
+The file LFP_Data.gdt contains a subset of individuals from the SHIW (Survey on Household Income and Wealth) 2020 dataset. Further information on the variables can be found in the two  pdf files **Survey_Italian_Household_Income_and_Wealth_2020.pdf** and **LFP_Variables_Documentation.pdf**. 
 
 ## Project Structure
 
